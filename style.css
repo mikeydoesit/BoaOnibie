@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.onibie {
+    
+}
+.onibie .topHalfWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onibie .topHalf {
+    background-image: url('christmas-1294090.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    padding: 25px 60px;
+    width: 100vw;
+}
+.onibie .topHalf .topHalfContent {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.onibie .topHalf .topHalfContent .topHalfCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 28px;
+}
+.onibie .topHalf .topHalfContent .topHalfCopy h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 49px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom: 21px;
+}
+.onibie .topHalf .topHalfContent .topHalfCopy p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.onibie .topHalf .topHalfContent .topHalfImg {
+    display: flex;
+    padding: 28px;
+    align-items: center;
+    justify-content: center;
+}
+.onibie .topHalf .topHalfContent .topHalfImg img {
+    max-width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.bottomHalf {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url('christmasTree.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.bottomHalf .bottomHalfCopy .name {
+    font-weight: 500;
+}
+.bottomHalf .bottomHalfCopy .address {
+    padding: 14px;
+    font-size: 21px;
+}
+.bottomHalfCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 28px 60px 28px 28px;
+    max-width: 56vw;
+}
+.bottomHalfCopy h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 49px;
+    font-weight: 500;
+    display: inline-block;
+    padding-bottom: 21px;
+    letter-spacing: 2px;
+}
+.bottomHalfCopy p {
+    font-size: 14px;
+    max-width: 50vw;
+    font-weight: 500;
+    padding-bottom: 21px;
+    line-height: 1.6;
+}
+.bottomHalfCopy .locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 21px;
+}
+.bottomHalfCopy .locations .locationWrapper {
+    width: 33.333333333333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+.bottomHalfCopy .locations .locationWrapper .location {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.bottomHalfCopy .locations .locationWrapper .address {
+    display: none;
+    
+}
